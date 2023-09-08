@@ -9,6 +9,8 @@ export const FormHero = styled.form`
   position: relative;
   display: flex;
   align-items: center;
+  justify-content: center;
+  text-align: center;
 
   &::before {
     position: absolute;
@@ -22,10 +24,9 @@ export const FormHero = styled.form`
   }
 
   @media (max-width: 768px) {
-    .form {
-      height: auto;
-      padding: 24px 0;
-    }
+    height: auto;
+    padding: 24px 0;
+  }
 `
 
 export const FormDiv = styled.div`
@@ -38,8 +39,6 @@ export const FormTitle = styled.h2`
   font-size: 48px;
 
   @media (max-width: 768px) {
-    .heroTitle {
-      font-size: 32px;
-    }
+    font-size: 32px;
   }
 `

@@ -30,7 +30,7 @@ export const VagaLink = styled.a`
   border-radius: 8px;
   text-align: center;
 
-  :hover a {
+  :hover {
     border-color: ${cores.corPrincipal};
     background-color: ${cores.corSecundaria};
     color: ${cores.corPrincipal};
