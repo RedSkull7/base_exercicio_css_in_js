@@ -9,8 +9,6 @@ export const FormHero = styled.form`
   position: relative;
   display: flex;
   align-items: center;
-  justify-content: center;
-  text-align: center;
 
   &::before {
     position: absolute;
